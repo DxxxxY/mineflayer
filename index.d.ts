@@ -9,7 +9,7 @@ import { Block } from 'prismarine-block'
 import { Entity } from 'prismarine-entity'
 import { ChatMessage } from 'prismarine-chat'
 import { world } from 'prismarine-world'
-import { Registry } from 'prismarine-registry'
+import { Registry } from '@dxxxxy/prismarine-registry'
 import { IndexedData } from 'minecraft-data'
 
 export function createBot (options: { client: Client } & Partial<BotOptions>): Bot
